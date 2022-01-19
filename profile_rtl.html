@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/theme_rtl.css">
+    <link rel="stylesheet" href="font/style.css">
+    <link rel="stylesheet" href="font/font_rtl.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="slider/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="slider/dist/assets/owl.theme.default.css">
+</head>
+<body onload="resize()">
+<div class="main">
+    <div class="container-fluid">
+        <div class="row" style="padding-top: 10px">
+            <div class="col">
+                <img src="design/icon/bell-solid%201.svg"/>
+            </div>
+            <div class="col" style="text-align: right">
+                <img src="design/icon/menu.svg">
+            </div>
+        </div>
+    </div>
+    <h3 class="header" style="font-size: 36px ; padding-top: 20px">پروفایل</h3>
+    <h3 class="header" style="font-size: 26px ; padding-top: 0px">مشخصات حساب</h3>
+    <div class="container-fluid">
+        <div class="row rtl">
+            <div class="col">
+                اعتبار باقی مانده
+            </div>
+            <div class="col txtAlignLeft">
+                <b class="rtl float-left">365 روز</b>
+            </div>
+        </div>
+        <div class="row rtl paddingTopRowCustom1">
+            <div class="col">
+                نوع اکانت
+            </div>
+            <div class="col txtAlignLeft">
+                <span class="yellowTag">اشتراک پرو اپل اپس</span>
+            </div>
+        </div>
+        <div class="row rtl paddingTopRowCustom1">
+            <div class="col">
+                آدرس ایمیل
+            </div>
+            <div class="col txtAlignLeft">
+                <b class="ltr float-left">alisaghari.awd@gmail.com</b>
+            </div>
+        </div>
+        <div class="row rtl paddingTopRowCustom1">
+            <div class="col">
+                دستگاه های من
+            </div>
+            <div class="col txtAlignLeft">
+                <div class="panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" href="#collapse1" class="accordingConfigLink" style="font-size: 17px">
+                                    iPhone 7 Plus <!--limited here-->
+                                    <img src="design/down-arrow.svg"
+                                                     style="width: 25px ; height: 25px ; float: left"></a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <p class="paragraphConfigEn">
+                                iPhone 7 Plus,iPad
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+
+        <div class="row" style="box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);border-radius: 11px; margin: 10px ; padding: 10px" >
+            <div class="col-sm-12" style="text-align: center">
+                <h4 style="font-weight: bolder">دعوت به اپل اپس</h4>
+                <p style="direction: rtl">
+                    با دعوت دوستانتان به اپل اپس, اعتبار هدیه بگیرید. هم شما و هم دوست شما!
+                </p>
+                <img src="design/icon/profilepage.svg">
+                <h4 style="font-weight: bolder ; margin-top: 20px">AA-G4K6-LSK3 <img src="design/icon/ref.svg" style="position: relative;margin-top: -10px"></h4>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+
+</div>
+<div class="bottomNavigation">
+    <div class="container">
+        <div class="row">
+            <div class="col navItem">
+                <img src="design/icon/program.svg">
+                <span class="navLabel">برنامه ها</span>
+            </div>
+            <div class="col navItem">
+                <img src="design/icon/search.svg">
+                <span class="navLabel"> جستجو</span>
+            </div>
+            <div class="col navItem">
+                <img src="design/icon/vitrin.svg" >
+                <span class="navLabel">ویترین</span>
+            </div>
+            <div class="col navItem">
+                <img src="design/icon/game.svg">
+                <span class="navLabel">بازی ها</span>
+            </div>
+            <div class="col navItem">
+                <img src="design/icon/profile.svg">
+                <span class="navLabel">پروفایل</span>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+    function resize() {
+        var elmnt = document.getElementById("sw1");
+        var txt = elmnt.offsetWidth;
+
+        //    $(".appItem").css("width",txt+"px")
+    }
+</script>
+<script src="js/popper.min.js"></script>
+<script src="slider/dist/owl.carousel.min.js"></script>
+<script src="js/init.js"></script>
+</body>
+</html>

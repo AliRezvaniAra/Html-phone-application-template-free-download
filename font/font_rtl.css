@@ -1,0 +1,9 @@
+﻿@font-face {
+    font-family: 'IRANSans';
+    src: url('IRANSansWeb(FaNum).eot') format('eot'),  /* IE6–8 */
+    url('IRANSansWeb(FaNum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('IRANSansWeb(FaNum).ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+a,p,h1,h2,h3,h4,h5,h6,input,textarea,td,th,div,button,.button{
+    font-family:'IRANSans'  !important;
+}
